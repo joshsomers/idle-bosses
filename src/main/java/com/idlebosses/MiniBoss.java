@@ -391,9 +391,8 @@ class MiniBoss
 		{
 			return;
 		}
-		Animation animation = client.loadAnimation(walking ? boss.getWalkAnimation() : boss.getIdleAnimation());
-		object.setShouldLoop(true);
-		object.setAnimation(animation);
+		// A new controller loops by default.
+		object.setAnimation(client.loadAnimation(walking ? boss.getWalkAnimation() : boss.getIdleAnimation()));
 	}
 
 	private void playOnce(Animation animation, Runnable after)
@@ -407,11 +406,7 @@ class MiniBoss
 			after.run();
 			return;
 		}
-		object.setShouldLoop(false);
-		AnimationController controller = new AnimationController(client, animation);
-		object.setAnimationController(controller);
-		// Set after the controller, which replaces any finish handler with its own.
-		controller.setOnFinished(c -> after.run());
+		object.setAnimationController(new AnimationController(client, animation).setOnFinished(c -> after.run()));
 	}
 
 	private void puff(LocalPoint tile, int plane)
@@ -431,9 +426,7 @@ class MiniBoss
 		RuneLiteObject smoke = puff;
 		smoke.setModel(data.shallowCopy().cloneVertices().scale(scale, scale, scale).light());
 		smoke.setLocation(tile, plane);
-		smoke.setShouldLoop(false);
-		smoke.setAnimation(animation);
-		smoke.getAnimationController().setOnFinished(c -> smoke.setActive(false));
+		smoke.setAnimationController(new AnimationController(client, animation).setOnFinished(c -> smoke.setActive(false)));
 		smoke.setActive(true);
 	}
 
