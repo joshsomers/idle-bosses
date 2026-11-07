@@ -59,11 +59,3 @@ Wiki's licence. The rest of the plugin is BSD-2 (see `LICENSE`).
 
 Boss models, animations, item icons, hitsplats and sounds are loaded from your game client while it runs. None are
 included in the plugin.
-
-## Building
-
-```bash
-./gradlew test jar
-```
-
-`./gradlew run` starts RuneLite with the plugin loaded.
