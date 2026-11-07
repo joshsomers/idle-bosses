@@ -63,7 +63,7 @@ import net.runelite.client.util.QuantityFormatter;
 @Slf4j
 @PluginDescriptor(
 	name = "Idle Bosses",
-	description = "Every XP drop hits a boss on screen. Kills roll its real drop table and fill collection logs that unlock bigger bosses",
+	description = "Every XP drop hits a boss on screen. Kills roll its drop table and fill collection logs that unlock bigger bosses",
 	tags = {"skilling", "xp", "boss", "game", "fun", "collection", "log", "loot", "pet"}
 )
 public class IdleBossesPlugin extends Plugin

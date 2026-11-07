@@ -1,8 +1,14 @@
 # Idle Bosses
 
-Train any skill and fight real bosses while you do it. Every XP drop hits a boss on screen. It takes the hits, dies and
-drops loot from its real drop table. Fill collection logs to climb a ladder of 70 bosses, from Obor to the Fractured
-Archive.
+**Bored of skilling?** Hours of laps, logs and essence, and nothing to show for it but a number going up. Idle Bosses
+gives your XP something to hit.
+
+Idle Bosses is a [RuneLite](https://runelite.net/) plugin for Old School RuneScape. Every XP drop hits a boss in a box
+on your screen. It takes the hits, dies and drops loot from its drop table. Fill collection logs to climb a ladder of 70
+bosses, from Obor to the Fractured Archive.
+
+> **None of it is real.** The bosses, loot, coins and collection logs only exist inside the plugin, on your screen. You
+> don't fight anything in the game, and nothing goes into your bank or your in-game collection log.
 
 <p align="center">
   <img src="docs/screenshot.png" width="668" alt="Two on-screen boss boxes, for Brutus and Tempoross, beside the sidebar's Fight and Upgrades tabs">
@@ -12,7 +18,7 @@ Archive.
 
 - **Every XP drop is a hit.** Damage is balanced for each skill, so an hour of Runecraft hits about as hard as an hour
   of Agility. Most kills take 15 seconds to 4 minutes of normal training.
-- **Real bosses, real loot.** Each boss uses its game model and animations, and every kill rolls its real drop table at
+- **Bosses you know.** Each boss uses its in-game model and animations, and every kill rolls the boss's drop table at
   the Wiki's rates, pets included.
 - **Collection logs unlock bosses.** Each boss needs log slots from across all your logs, plus a few kills of the boss
   before it. A finished log turns gold.

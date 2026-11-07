@@ -6,15 +6,15 @@ The full rules, every boss and every upgrade. For a quick start, see the [README
 
 - **Hits:** each XP drop hits the boss you're fighting. Damage is scaled for each skill, so an hour of Runecraft hits
   about as hard as an hour of Agility. Kills take 15 seconds to 4 minutes of normal training.
-- **Big bosses:** every boss has its real hitpoints, and tougher ones take bigger hits (the square root of how much
-  tougher than Obor they are), so even the Nightmare's 7,800 HP goes down in about 4 minutes of training.
+- **Big bosses:** every boss has the same hitpoints as in the game, and tougher ones take bigger hits (the square root
+  of how much tougher than Obor they are), so even the Nightmare's 7,800 HP goes down in about 4 minutes of training.
 - **No limit:** a big drop, like a lamp or a full Blood Altar craft, hits in full. Damage past a boss's last hitpoint
   carries on into the next boss, so one big drop can kill several in a row, each rolling its own loot.
 - **Weaknesses:** each boss takes double damage from one skill, like the Giant Mole from Mining or the Kraken from
   Fishing. The boss list shows that skill's icon by each boss's name.
-- **Loot:** every kill rolls the boss's real drop table, with the Wiki's rates, including the pet. Collection log items
-  go into the boss's log, and everything adds to your "looted" total at Grand Exchange prices. The sidebar shows the
-  kill count each log item dropped at beside its drop rate.
+- **Loot:** every kill rolls the boss's drop table from the game, with the Wiki's rates, including the pet. Collection
+  log items go into the boss's log, and everything adds to your "looted" total at Grand Exchange prices. The sidebar
+  shows the kill count each log item dropped at beside its drop rate.
 - **Unlocks:** each boss needs a number of collection log slots, filled across all bosses, so you're never stuck behind
   one 1 in 5,000 drop. It also needs some kills of the boss before it, about 10 minutes of fighting it, so you meet each
   boss on the way up. A boss you've fought stays unlocked.
