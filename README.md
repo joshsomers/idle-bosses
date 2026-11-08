@@ -59,3 +59,14 @@ Wiki's licence. The rest of the plugin is BSD-2 (see `LICENSE`).
 
 Boss models, animations, item icons, hitsplats and sounds are loaded from your game client while it runs. None are
 included in the plugin.
+
+## Say hi
+
+Made by **Krypt0fy** (that's a zero, not an o). Found a bug, want a boss added, or just got a pet and need someone to
+say gz? Add me in game.
+
+None of the loot in this plugin is real, but GP is. If Idle Bosses got you through a 10-hour Agility grind, tips in
+game are very welcome. They're the rarest drop in here, and I'm on a long dry streak.
+
+I'll never ask for your password, bank PIN or items. And if a "Krypt0fy" offers to double your money, that's not me.
+That's never anyone.
