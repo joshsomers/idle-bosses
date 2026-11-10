@@ -52,10 +52,9 @@ Every boss, unlock and upgrade is in the [full guide](docs/guide.md).
 
 ## Data
 
-Drop tables come from the [Old School RuneScape Wiki](https://oldschool.runescape.wiki/) under
-[CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). See `docs/drop-sources.md` for the pages and
-revisions used. `tools/fetch_drops.py` rebuilds `src/main/resources/com/idlebosses/drops.json`, which stays under the
-Wiki's licence. The rest of the plugin is BSD-2 (see `LICENSE`).
+Drop tables come from the [Old School RuneScape Wiki](https://oldschool.runescape.wiki/). See `docs/drop-sources.md`
+for the pages and revisions used, and `tools/fetch_drops.py` rebuilds `src/main/resources/com/idlebosses/drops.json`
+from them. The plugin is BSD-2 (see `LICENSE`).
 
 Boss models, animations, item icons, hitsplats and sounds are loaded from your game client while it runs. None are
 included in the plugin.
